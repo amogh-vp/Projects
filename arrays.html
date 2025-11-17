@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //create array
+        let num=[10,20,"Strings",55331111553377101];
+        console.log("Array : " , num);
+
+        //Accessing an element
+        let n= num.length;
+
+        console.log("first element : " ,num[0]);
+        console.log("last element" , num[n-1]);
+
+        //modify array
+        num.push(40);
+        console.log("after push", num);
+        num.pop();
+        console.log("after pop",num);
+
+        num.unshift(5);
+        console.log("after unshift", num);
+        num.shift(2);
+        console.log("after shift", num);
+
+        //loop
+
+
+        for(let i = 0; i<n ; i++){
+            console.log(  num[i] );
+        }
+        //finding element using index
+        console.log(num.indexOf(20));
+
+
+    </script>
+</body>
+</html>

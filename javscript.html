@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #boxx{
+            background-color: lightblue;
+            width: 30vw;   
+            height: 60vh;
+        }
+        button{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let cliq= document.getElementById("clickbtn");
+cliq.addEventListener("click",()=>{
+   let box = document.getElementById("boxx");
+   box.style.backgroundColor="green";
+});
+
+
+
+    </script>
+   <div id="boxx">
+    <button id="clickbtn">click!</button>
+   </div>
+</body>
+</html> 
